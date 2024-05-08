@@ -1,0 +1,500 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+/* Background Colors */
+.bg-orange {
+  background-color: #D5966C;
+}
+
+.bg-black {
+  background-color: #151515;
+}
+
+/* Text Colors */
+.text-black {
+  color: #151515;
+}
+
+.text-grey {
+  color: #444444;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-orange {
+  color: #D5966C;;
+}
+
+
+
+.margins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1.margins {
+  margin-left: 0;
+}
+
+/* ////////////////////////////
+///////////////////////////////
+//////////////////////////////
+////////////////////////////// */
+/* index.html for mobile device */
+/* Section Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.hero_tablet-img {
+  display: none;
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  width: 280px;
+  margin: 32px 0;
+}
+
+.hero_par {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  width: 310px;
+  margin-bottom: 32px;
+  margin-left: 20px;
+}
+
+.location_btn {
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display';
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  padding: 24px 33px;
+  width: 140px;
+  margin-left: 30px;
+}
+
+.negative_margin {
+  margin-left: -65px;
+}
+
+.arrow {
+  width: 56px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location_btn-div {
+  display: flex;
+}
+
+/* Section Yourday */
+.yourday {
+  margin-bottom: 35px;
+}
+
+.yourday_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yourday_heading {
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 50px;
+  width: 216px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: -80px;
+}
+
+.yourday_img {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.yourday_img-tablet {
+  display: none;
+}
+
+.yourday_par {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  width: 310px;
+  margin-left: 9px;
+}
+
+
+/* Section Images */
+.images_img {
+  display: block;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.images_img-tablet {
+  display: none;
+}
+
+/* Section Inspired */
+.section_inspired {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  width: 290px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.section_inspired-tablet {
+  display: none;
+}
+
+.inspired_header {
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.inspired_par {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* Section Footer */
+.section_footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer_header {
+  width: 117px;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: 'Big Shoulders Display';
+  margin-bottom: 40px;
+  padding-top: 50px;
+}
+
+.footer_par {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.socials {
+  margin-bottom: 50px;
+}
+
+.soc_icon {
+  margin-right: 5px;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ////////////////////////////
+///////////////////////////////
+//////////////////////////////
+////////////////////////////// */
+/* Location Page for mobile device */
+.map {
+  position: relative;
+}
+
+.map_img {
+  width: 100%;
+}
+
+.map_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.map_img-desktop {
+  display: none;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display';
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  padding: 24px 33px;
+  width: 144px;
+}
+
+/* Adress Section */
+.adress_section {
+  padding-bottom: 60px;
+  padding-left: 10px;
+}
+
+.adress_main-header {
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.adress_header {
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.adress {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.adress_par {
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+/* ////////////////////////////
+///////////////////////////////
+//////////////////////////////
+////////////////////////////// */
+/* index.html for tablets  */
+/* Section Hero for tablets */
+@media screen and (min-width: 481px){
+  .hero_mobile-img {
+    display: none;
+  }
+
+  .hero_tablet-img {
+    display: inline;
+    width: 300px;
+  }
+
+  .hero {
+    position: relative;
+  }
+
+  .hero_content {
+    width: 50%;
+    position: absolute;
+    left: 40%;
+  }
+
+  /* Section yourday for tablets*/
+  .yourday {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .yourday_content {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .yourday_img {
+    display: none;
+  }
+
+  .yourday_img-tablet {
+    display: block;
+    order: 1;
+    width: 48%;
+  }
+
+  .yourday_heading {
+    width: 80%;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .yourday_par {
+    width: 80%;
+    margin: 0px;
+  }
+
+  /* Section Images for tablets */
+  .images {
+    padding: 0 10px;
+    position: relative;
+    margin-bottom: 120px;
+  }
+
+  .images_img {
+    display: none;
+  }
+
+  .images_img-tablet {
+    display: inline;
+  }
+
+  .images_img-tablet.one {
+    margin-right: 2px;
+    width: 57%;
+  }
+
+  .images_img-tablet.two {
+    width: 41%;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  /* Section Inspired for tablets */
+  .section_inspired {
+    display: none;
+  }
+
+  .section_inspired-tablet {
+    width: 37%;
+    position: absolute;
+    top: 46%;
+    left: 59%;
+    height: 53%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inspired_header {
+    padding-top: 2%;
+  }
+
+  .inspired_par {
+    line-height: 1;
+  }
+
+  /* Section footer for tablets */
+  .section_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer_header {
+    padding: 0;
+    margin: 0;
+  }
+
+  .socials {
+    display: flex;
+    margin: 0;
+  }
+
+  .footer_par {
+    margin: 0 40px;
+  }
+
+  /* Location.html img */
+  .map_img-desktop {
+    display: none;
+  }
+
+}
+
+/* ////////////////////////////
+///////////////////////////////
+//////////////////////////////
+////////////////////////////// */
+/* Index.html for Desktops  */
+/* Section Hero for Desktops */
+@media screen and (min-width: 769px){
+  
+  .hero {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .background_black {
+    width: 32%;
+    background-color: #151515;
+  }
+
+  .hero_content {
+    left: 53%;
+  }
+
+/* ////////////////////////////
+///////////////////////////////
+//////////////////////////////
+////////////////////////////// */
+/* Location.html for Desktops  */
+/* Div Map for Desktops */
+  
+  .map_img {
+    display: none;
+  }
+
+  .map_img-desktop {
+    display: inline-block;
+    width: 100%;
+  }
+
+   /* Section Adress  */
+  .adress_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adress_section-content {
+    padding-top: 40px;
+    margin-left: 45px;
+  }
+
+}
